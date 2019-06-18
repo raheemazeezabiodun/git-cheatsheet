@@ -2,6 +2,8 @@
 
 I made this git cheatsheet for myself to save most of the git commands I use.
 
+***
+
 Checking what will be staged to the staging area interactively
 * `git add -p`
 
