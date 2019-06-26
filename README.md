@@ -30,4 +30,10 @@ Avoid resolving merge conflicts and rebase all the time
     - This will use the first step in resolving a conflict for future conflicts
 
 Branches
+    - A commit message should be brief
+    - Github truncates a commit message after 69 characters thereabout so keep it brief in order not to make people guess what the remaining words would be
+    - If you need to explain further, use a description which should explain the context
+    - Commit message should be in the future tense (fix vs fixed)
+    - Commit message should encapsulates one idea (single responsibility)
+    - Commits should generally leave your branch in a clean state, (tests should pass)
 * `git checkout -`  Checkout to the previous branched
