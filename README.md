@@ -28,3 +28,6 @@ Avoid resolving merge conflicts and rebase all the time
 * `git config rerere.enabled true` turn on git rerere for the project, pass --global to enable for all projects
 
     - This will use the first step in resolving a conflict for future conflicts
+
+Branches
+* `git checkout -`  Checkout to the previous branched
