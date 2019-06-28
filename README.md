@@ -36,4 +36,16 @@ Branches
     - Commit message should be in the future tense (fix vs fixed)
     - Commit message should encapsulates one idea (single responsibility)
     - Commits should generally leave your branch in a clean state, (tests should pass)
+
 * `git checkout -`  Checkout to the previous branched
+
+
+Logs
+    - `git log --since=yesterday`  # show logs for yesterday
+    - `git log --since="3 weeks ago"`   # show logs for three weeks ago
+
+
+Referencing
+    - `^` previous one
+    - `^^^` last three commits
+    - `^n` reference a particular commit e.g (^2), you can also use `~n`
