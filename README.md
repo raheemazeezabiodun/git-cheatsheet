@@ -49,3 +49,11 @@ Referencing
     - `^` previous one
     - `^^^` last three commits
     - `^n` reference a particular commit e.g (^2), you can also use `~n`
+
+
+Differences
+    - `git show <commit>` show commits and its contents
+    - `git show <commit> --stat` show files changed in the commit
+    - `git show <commit>><file>` look at a file from another commit
+    - `git branch --merged master` check branches that were merged to master
+    - `git branch --no-merged master` check branches that aren't merged with master yet
