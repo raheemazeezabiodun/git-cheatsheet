@@ -45,6 +45,7 @@ Branches
 Logs
     - `git log --since=yesterday`  # show logs for yesterday
     - `git log --since="3 weeks ago"`   # show logs for three weeks ago
+    - `git log --name-status --follow --oneline filename` # this helps you check history of a file, from when the name was changed, how it was moved around etc
 
 
 Referencing
@@ -65,3 +66,10 @@ Differences
 
 Fixing mistakes
     - `git checkout <deleted_commit>` to restore a deleted commit
+
+
+Cleaning
+    - `git clean` # to clean working area by deleting untracked files
+    - use `--dry-run` to see what would be deleted
+    - specify `-d` to clean directories
+    - `git revert` # it will create a commit to revert the recent commit
