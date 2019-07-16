@@ -36,6 +36,8 @@ Branches
     - Commit message should be in the future tense (fix vs fixed)
     - Commit message should encapsulates one idea (single responsibility)
     - Commits should generally leave your branch in a clean state, (tests should pass)
+    - `git branch --merged master` check branches that have been merged with master
+    - `git branch --no-merged master` check branches that haven't been merged yet with master
 
 * `git checkout -`  Checkout to the previous branched
 
@@ -54,6 +56,12 @@ Referencing
 Differences
     - `git show <commit>` show commits and its contents
     - `git show <commit> --stat` show files changed in the commit
-    - `git show <commit>><file>` look at a file from another commit
+    - `git show <commit>:<file>` look at a file from another commit
     - `git branch --merged master` check branches that were merged to master
     - `git branch --no-merged master` check branches that aren't merged with master yet
+    - `git diff` Unstaged changes
+    - `git diff --staged` staged changes
+
+
+Fixing mistakes
+    - `git checkout <deleted_commit>` to restore a deleted commit
