@@ -66,10 +66,13 @@ Differences
 
 Fixing mistakes
     - `git checkout <deleted_commit>` to restore a deleted commit
-
+    - `git commit --amend` # ammend a commit messsage
 
 Cleaning
     - `git clean` # to clean working area by deleting untracked files
     - use `--dry-run` to see what would be deleted
     - specify `-d` to clean directories
     - `git revert` # it will create a commit to revert the recent commit
+
+
+- When working on a repo with other developers, use `git pull --rebase` when fetching from the origin repo, this will fetch from origin, merge with your local repo and replay your commits
